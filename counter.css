@@ -2,10 +2,19 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-@media only screen and (max-width: 500px) {
-.main {
-  display: flex;
-  flex-wrap: wrap;
+@media only screen and (max-width: 760px) {
+  .increase,
+  .decrease,
+  .reset {
+    margin: 0.5rem !important;
+  }
+  .root {
+    margin-top: 0.5rem !important;
+    font-size: 3rem !important;
+  }
+  .counter {
+    font-size: 55px !important;
+  }
 }
 
 .counter {
@@ -18,6 +27,7 @@ body {
 .buttons {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 h2:hover,
@@ -68,4 +78,18 @@ a:hover {
   margin-top: 7rem;
   text-align: center;
   font-size: 5rem;
+}
+
+.footer {
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  width: 100%;
+}
+
+.footer a {
+  color: #1d4ed8;
+  text-decoration-color: black;
 }
