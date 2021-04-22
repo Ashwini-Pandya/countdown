@@ -2,6 +2,12 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+@media only screen and (max-width: 500px) {
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .counter {
   text-align: center;
   font-size: 80px;
