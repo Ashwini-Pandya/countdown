@@ -1,5 +1,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  color: black;
 }
 
 @media only screen and (max-width: 760px) {
@@ -17,11 +19,34 @@ body {
   }
 }
 
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.dark-mode .increase {
+  color: white;
+  background-color: #003049;
+  box-shadow: none;
+}
+.dark-mode .decrease {
+  color: white;
+  background-color: #003049;
+  box-shadow: none;
+}
+.dark-mode .reset {
+  color: white;
+  background-color: #003049;
+  box-shadow: none;
+}
+.dark-mode .counter {
+  color: azure;
+  text-shadow: none;
+}
+
 .counter {
   text-align: center;
   font-size: 80px;
   color: #1f2937;
-  text-shadow: 1px 1px 2px black, 0 0 25px #9ca3af, 0 0 5px #9ca3af;
 }
 
 .buttons {
